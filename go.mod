@@ -1,6 +1,6 @@
 module identity
 
-go 1.21.3
+go 1.20
 
 require firebase.google.com/go v3.13.0+incompatible
 
@@ -12,6 +12,7 @@ require (
 	cloud.google.com/go/iam v1.1.3 // indirect
 	cloud.google.com/go/longrunning v0.5.2 // indirect
 	cloud.google.com/go/storage v1.34.1 // indirect
+	github.com/go-resty/resty/v2 v2.10.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/golang/protobuf v1.5.3 // indirect
 	github.com/google/s2a-go v0.1.7 // indirect
